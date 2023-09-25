@@ -15,3 +15,8 @@ nav {
     min-height: 10vh;
     background: black;
 }
+
+#logo {
+    grid-column: 2/3; 
+    font-size: 24px;
+}

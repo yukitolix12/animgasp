@@ -20,3 +20,7 @@ nav {
     grid-column: 2/3; 
     font-size: 24px;
 }
+
+.menu {
+    justify-self: end;
+}

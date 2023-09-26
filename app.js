@@ -5,3 +5,5 @@ const menu = document.querySelector(".menu");
 const headline = document.querySelector(".headline");
 
 const tl = gsap.timeline();
+
+tl.fromTo(hero, 1, {height: "0%"}, {height: "80%"});

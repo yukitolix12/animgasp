@@ -16,4 +16,10 @@ tl.fromTo(
     1.2, 
     {width: "100%"},
     {width: "80%", ease: Power2.easeInOut}
+).fromTo(
+    slider,
+    1.2, 
+    { y: "-100%"}, 
+    { y: "0%", ease: Power2.easeInOut},
+    "-=1.2"
 );

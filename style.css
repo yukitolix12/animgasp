@@ -41,3 +41,8 @@ section {
     justify-content: center;
     align-items: center;
 }
+
+.hero {
+   height: 60%; 
+   width: 100%;
+}

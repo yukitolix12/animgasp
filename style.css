@@ -64,3 +64,13 @@ section {
     height: 100%;
     opacity: 0.4;
 }
+
+.headline {
+    position: absolute;
+    top: 60%;
+    left: 10%;
+    color: white;
+    font-size: 100px;
+    transform: translateY(-10%, -70%);
+    z-index: 5;
+}

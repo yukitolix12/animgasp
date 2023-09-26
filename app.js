@@ -6,4 +6,4 @@ const headline = document.querySelector(".headline");
 
 const tl = gsap.timeline();
 
-tl.fromTo(hero, 1, {height: "0%"}, {height: "80%"});
+tl.fromTo(hero, 1, {height: "0%"}, {height: "80%", ease: Power2.easeInOut});

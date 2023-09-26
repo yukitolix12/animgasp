@@ -11,4 +11,9 @@ tl.fromTo(
     1,
     {height: "0%"},
     {height: "80%", ease: Power2.easeInOut}
-).fromTo(hero, 1.2, {width: "100%"}, {width: "80%"});
+).fromTo(
+    hero,
+    1.2, 
+    {width: "100%"},
+    {width: "80%", ease: Power2.easeInOut}
+);
